@@ -1,0 +1,27 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanadwj/restaurant-page.git"
+  },
+  "author": "Sanad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanadwj/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/sanadwj/restaurant-page#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
