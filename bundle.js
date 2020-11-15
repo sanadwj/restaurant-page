@@ -71,7 +71,35 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n;\n \nfunction component() {\n  const element = document.createElement('div');\n\n  // Lodash, now imported by this script\n  element.innerHTML = 'Hello', 'webpack'\n element.classList.add('hello');\n\n  return element;\n}\nconsole.log(\"Hello Sandoog\");\n\ndocument.body.appendChild(component());\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tabs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tabs */ \"./src/tabs.js\");\n/* harmony import */ var _load__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./load */ \"./src/load.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n;\n\n\n\n\nconst loads = (0,_load__WEBPACK_IMPORTED_MODULE_1__.load)();\n\nconst content = document.getElementById('content');\ncontent.appendChild(loads);\n \n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/load.js":
+/*!*********************!*\
+  !*** ./src/load.js ***!
+  \*********************/
+/*! namespace exports */
+/*! export load [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"load\": () => /* binding */ load\n/* harmony export */ });\n/* harmony import */ var _tabs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tabs */ \"./src/tabs.js\");\n;\n\nconst tab = (0,_tabs__WEBPACK_IMPORTED_MODULE_0__.tabs)();\n\nconst load = () => {\n  const load = document.createElement('div');\n  load.appendChild(tab);\n  return load;\n};\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/load.js?");
+
+/***/ }),
+
+/***/ "./src/tabs.js":
+/*!*********************!*\
+  !*** ./src/tabs.js ***!
+  \*********************/
+/*! namespace exports */
+/*! export tabs [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"tabs\": () => /* binding */ tabs\n/* harmony export */ });\nconst tabs = () => {\n  const tabs = document.createElement('div');\n  const tab1 = document.createElement('div');\n  const button1 = document.createElement('button');\n  button1.innerHTML = '<h3>MAIN</h3>';\n  tab1.appendChild(button1);\n\n  const tab2 = document.createElement('div');\n  const button2 = document.createElement('button');\n  button2.innerHTML = '<h3>Menu</h3>';\n  tab2.appendChild(button2);\n\n  const tab3 = document.createElement('div');\n  const button3 = document.createElement('button');\n  button3.innerHTML = '<h3>Contact</h3>';\n  tab3.appendChild(button3);\n\n  [tab1, tab2, tab3].forEach((tab) => {\n    tabs.appendChild(tab);\n  });\n\n  return tabs;\n};\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/tabs.js?");
 
 /***/ })
 
