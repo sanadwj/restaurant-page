@@ -1,3 +1,4 @@
 const load = () => {
   
+  return load;
 }
