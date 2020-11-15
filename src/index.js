@@ -1,15 +1,10 @@
+import { tabs } from './tabs';
 
+import { load } from './load';
 import './style.css';
+
+const loads = load();
+
+const content = document.getElementById('content');
+content.appendChild(loads);
  
-function component() {
-  const element = document.createElement('div');
-
-  // Lodash, now imported by this script
-  element.innerHTML = 'Hello', 'webpack'
- element.classList.add('hello');
-
-  return element;
-}
-console.log("Hello Sandoog");
-
-document.body.appendChild(component());
