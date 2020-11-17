@@ -1,3 +1,12 @@
-.hello {
-  color: gold;
+body {
+  background-image: url(./pic/soup.jpg);
+  background-size: cover;
+}
+
+#button {
+  background: transparent;
+  border: none;
+  margin: 3rem;
+  color: aliceblue;
+
 }
