@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo](https://sleepy-feynman-40ee54.netlify.app/)
+[Live Demo](https://sanadwj.github.io/restaurant-page/)
 
 
 
@@ -31,7 +31,7 @@ git clone git@github.com:sanadwj/restaurant-page.git
 
 ### Deployment
 
-This project has been deployed on Netlify.
+This project has been deployed on Github.
 
 
 ## Author
