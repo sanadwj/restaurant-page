@@ -1,6 +1,9 @@
 body {
-  background-image: url(./pic/soup.jpg);
-  background-size: cover;
+  background-image: url(./pic/rest1.jpg);
+  background-size: cover ;
+  
+
+
 }
 
 #button {
@@ -10,3 +13,16 @@ body {
   color: aliceblue;
 
 }
+
+/* .nav, .active , a { 
+  color: slateblue; 
+  border-bottom: 1px solid slateblue;
+}
+
+.tab-pane { 
+  display: none;
+}
+
+.tab-pane.active { 
+  display: block; 
+} */
