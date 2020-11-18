@@ -1,4 +1,4 @@
-import main from './main';
+import main from './ourResturant';
 import menu from './menu';
 import contact from './contact';
 import { tabs, active } from './tabs';
