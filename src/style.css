@@ -1,3 +1,64 @@
-.hello {
+body {
+  background-image: url(./pic/rest1.jpg);
+  background-size: cover;
+}
+
+#content {
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+}
+
+#tab {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 3rem 0;
   color: gold;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#tabDiv {
+  border-bottom: rgba(255, 239, 204, 0.795) solid 2px;
+  width: 100%;
+  -webkit-box-shadow: 1px 2px 5px 2px #000;
+  box-shadow: 1px 2px 5px 2px #000;
+}
+
+#tabDiv:hover {
+  cursor: pointer;
+  background-color: rgba(250, 223, 165, 0.562);
+}
+
+#tabs {
+  display: flex;
+  position: fixed;
+  background-color: rgba(75, 68, 55, 0.562);
+  flex-direction: column;
+  align-items: center;
+  width: 10em;
+}
+
+#mainDiv,
+#menuDiv,
+#contactDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+  margin-left: 12em;
+  padding: 5em;
+  background-color: rgba(255, 239, 204, 0.452);
+}
+
+img {
+  height: 12em;
+  -webkit-box-shadow: 5px 5px 15px 5px #000;
+  box-shadow: 5px 5px 15px 5px #000;
+}
+
+h3 {
+  margin: 1em;
 }
